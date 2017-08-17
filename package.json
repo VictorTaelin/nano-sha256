@@ -1,6 +1,6 @@
 {
   "name": "nano-sha256",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Sha256 using the native implementations on both browser and node.js",
   "main": "node-api.js",
   "browser": "browser-api.js",
