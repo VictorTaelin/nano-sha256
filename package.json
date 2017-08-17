@@ -1,0 +1,22 @@
+{
+  "name": "nano-sha256",
+  "version": "0.1.0",
+  "description": "Sha256 using the native implementations on both browser and node.js",
+  "main": "node-api.js",
+  "browser": "browser-api.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maiavictor/nano-sha256.git"
+  },
+  "author": "Victor Maia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maiavictor/nano-sha256/issues"
+  },
+  "homepage": "https://github.com/maiavictor/nano-sha256#readme"
+}
