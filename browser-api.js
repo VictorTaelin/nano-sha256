@@ -11,7 +11,7 @@ function sha256(data) {
   var buffer = format(data);
   return crypto.subtle
     .digest("SHA-256", buffer)
-    .then(buffer => {
+    .then(function(buffer) {
       var hex = "";
       var bytes = new Uint8Array(buffer);
       for (var i = 0; i < bytes.length; ++i) {
@@ -23,4 +23,3 @@ function sha256(data) {
 }
 
 module.exports = sha256;
-
